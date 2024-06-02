@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+    text-align: justify;
+}
+
+/* Estilos para el contenedor principal */
+.bodyconteiner {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para la barra de navegación */
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #65abe4;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.nav-title {
+    margin: 0;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.nav li {
+    margin-right: 20px;
+}
+
+.nav li.derecha {
+    margin-right: 0px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav a.active {
+    font-weight: bold;
+}
+
+/* Estilos para el cuerpo del contenido de navegación */
+.navbodyconteiner {
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 2px solid #fff8f8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbodyconteiner h1 {
+    margin-bottom: 0;
+    font-size: 24px;
+}
+
+.navbodyconteinertemperature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbodyconteinertemperature p {
+    margin: 0;
+    margin-right: 10px;
+}
+
+.navbodyconteinertemperature select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Estilos para los días de la semana */
+.daysbodyconteiner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.conteinerimg {
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #e4e4e4c1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.imgdays {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para el mensaje de cookie */
+.bodyContainerMessage {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bodyContainerMessage img {
+    margin-right: 20px;
+}
+
+.conteinermenssaje {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.bodyContainerMessage .message-content h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.bodyContainerMessage .message-content p {
+    margin: 0;
+}
+
+.bodyContainerMessage .message-content a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.bodyContainerMessage .message-content a:hover {
+    text-decoration: underline;
+}
+
+.btn_menssaje {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 20px;
+    white-space: nowrap;
+}
+
+.btn_menssaje:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para las temperaturas */
+.conteinerimgtemperature {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.max {
+    font-size: 16px;
+    color: #930000;
+}
+
+.min {
+    font-size: 16px;
+    color: #272da6;
+}
